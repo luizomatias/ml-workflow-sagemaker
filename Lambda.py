@@ -65,7 +65,7 @@ import base64
 import boto3
 
 # Fill this in with the name of your deployed model
-ENDPOINT = 'image-classification-2022-08-17-01-14-07-207'
+ENDPOINT = 'image-classification-2022-08-17-10-36-02-225'
 runtime = boto3.Session().client('sagemaker-runtime')
 
 
